@@ -1,0 +1,167 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+		    "path" : "pages/index/teaching",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		    
+		}
+	    ,{
+            "path" : "pages/link/link",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+		,{
+            "path" : "pages/link/nearby",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "附近蓝牙设备",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffffff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle":"custom"
+            }
+            
+        }
+		,{
+			"path" : "pages/my/editData",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "编辑资料",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+			
+		}
+		,{
+			"path" : "pages/my/schoolnum",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+			
+		}
+		,{
+			"path" : "pages/my/class",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "班级",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffffff"
+				
+			}
+			
+		}
+		,{
+			"path" : "pages/my/set",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+			
+		}
+		,{
+			"path" : "pages/my/changePwd",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+			
+		}
+		,{
+			"path" : "pages/my/selection",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "校区选择",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+			
+		}
+		,{
+			"path" : "pages/my/changeName",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+			
+		}
+		,{
+			"path" : "pages/my/changeTitle",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+			
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#FFAA0B",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"书法练习",
+				"iconPath":"static/tabbar/index.png",
+				"selectedIconPath":"static/tabbar/index-1.png"
+			},
+			{
+				"pagePath":"pages/link/link",
+				"text":"链接",
+				"iconPath":"static/tabbar/link.png",
+				"selectedIconPath":"static/tabbar/link-1.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/tabbar/my.png",
+				"selectedIconPath":"static/tabbar/my-1.png"
+			}
+		]
+	}
+	
+}
